@@ -3,8 +3,14 @@ const changecolor = document.querySelector(".changecolor");
 const changetext = document.querySelector(".changetext");
 
 changecolor.onclick = () =>{
-    h1.style.color = "red";
-}
+    if(h1.style.color == "red"){
+        h1.style.color = "black";
+    }
+    else h1.style.color = "red";
+    }
 changetext.onclick = () =>{
-    h1.innerHTML= "Technology School";
+    if(h1.innerHTML == "Mindx"){
+    h1.innerHTML= "Technology School";}
+    else h1.innerHTML = "Mindx";
 }
+

@@ -18,8 +18,10 @@ body {
   padding: 100px 50px;
   border: double rgb(131, 21, 85) 2px;
   border-radius: 10px;
+  align-items: center;
 }
 .main button {
+  width: 100px;
   margin-top: 20px;
   padding: 5px;
   border: solid black 2px;
